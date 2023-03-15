@@ -2,7 +2,7 @@
 
 <!-- Final Project Web Development Winter 2023 -->
 
-Welcome to my personal portfolio website for CS563 - Intro to Web Development. To view this project, go to http://127.0.0.1:5500/navbar.html
+Welcome to my personal portfolio website for CS563 - Intro to Web Development. To view this project, go to https://ssiddhi.github.io/
 This is a professional personal website that highlights our professional experience.
 We need to feature a Navbar, an About section, a Previous work section, a Projects section and a Contact section.
 Website can consist of single page or multipages.
