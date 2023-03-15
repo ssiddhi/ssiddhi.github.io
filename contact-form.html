@@ -11,6 +11,8 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="navbar.css" />
+    <!-- <link rel="stylesheet" href="contact.css" /> -->
+    <script defer src="main.js"></script>
   </head>
   <body>
     <main class="mt-5">
@@ -30,23 +32,35 @@
           </li>
         </ul>
       </nav>
-
-      <form class="bg-light border rounded p-4 mx-auto container mt-5">
+      <form
+        class="form bg-light border rounded p-4 mx-auto container mt-5"
+        action=""
+      >
         <h1 class="mt-4 mb-4 text-uppercase">Contact Me</h1>
         <div class="row form-group mb-3 mt-2 fs-4">
-          <label for="username" class="col-sm-4">Name:</label>
+          <label for="username" class="labels col-sm-4">Name:</label>
           <div class="col-sm-8 mt-1">
-            <input type="text" class="form-control" id="username" />
+            <input
+              type="text"
+              class="form-control inputbox"
+              id="username"
+              name="username"
+            />
           </div>
         </div>
         <div class="row form-group mb-3 mt-2 fs-4">
-          <label for="email" class="col-sm-4">Email:</label>
+          <label for="email" class="labels col-sm-4">Email:</label>
           <div class="col-sm-8 mt-1">
-            <input type="email" class="form-control" id="email" />
+            <input
+              type="email"
+              class="form-control inputbox"
+              id="email"
+              name="username"
+            />
           </div>
         </div>
         <div class="row form-group mb-3 mt-2 fs-4">
-          <label for="message" class="col-sm-4">Message:</label>
+          <label for="message" class="labels col-sm-4">Message:</label>
           <textarea class="form-control mt-2" id="message" rows="6"></textarea>
         </div>
         <div class="row form-group text-center mt-4 mb-4">
@@ -56,7 +70,6 @@
           </div>
         </div>
       </form>
-
       <div class="row mt-5">
         <div class="d-flex justify-content-center">
           <div class="footer">
