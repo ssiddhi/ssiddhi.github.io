@@ -4,6 +4,7 @@
   --orange: #ffa500;
   --black: #080808;
   --gray1: #333333;
+  
 }
 
 body {
@@ -18,7 +19,6 @@ nav {
   width: 100%;
   height: 62px;
   position: absolute;
-
   top: 0;
   margin-top: 20px;
   left: 0;
@@ -37,7 +37,7 @@ nav {
   float: left;
   padding: 10px;
   color: #ffffff;
-  font-size: medium;
+  font-size: lerge;
 }
 
 .nav-link {
@@ -72,10 +72,13 @@ body {
 }
 
 .title {
-  margin-top: 110px;
+  margin-top: 60px;
   width: 400px;
   /* float: right; */
   text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .image {
@@ -90,12 +93,18 @@ body {
   border-radius: 30px;
   border-color: #080808;
   border-style: solid;
+  display: block;
+  
 }
 
-paragraph {
+.paragraph {
   /* float: right; */
   margin: auto;
   height: 80px;
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  /* display: block; */
 }
 
 .paragraph:first-line {
