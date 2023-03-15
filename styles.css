@@ -45,7 +45,7 @@ form {
 }
 
 .projects-body {
-  background-color: var(--gray3);
+  background-color: cornsilk
 }
 
 .previous-body {
@@ -54,4 +54,8 @@ form {
 
 .previous-heading {
   padding-top: 30px;
+}
+
+.projects-section {
+  margin-top: 20px;
 }
