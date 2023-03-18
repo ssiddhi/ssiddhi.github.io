@@ -5,9 +5,8 @@ let form = document.querySelector("form");
 // add an event listener on the target element
 form.addEventListener("submit", handleSubmit);
 
+// handle the form data
 function handleSubmit(event) {
-  // handle the form data
-
   // stop form submission
   event.preventDefault();
 
