@@ -24,26 +24,26 @@ function handleSubmit(event) {
     (emailInput === null || emailInput === "") &&
     (messageInput === null || messageInput === "")
   ) {
-    console.warn("You must enter some data to submit this form");
+    alert("You must enter some data to submit this form");
     return false;
   } else {
     // printing user input data to console
     console.log("========= Form Submission =========");
 
     if (nameInput === null || nameInput === "") {
-      console.log("Name: No submission");
+      alert("Name: No submission");
     } else {
       console.log("Name: " + nameInput);
     }
 
     if (emailInput === null || emailInput === "") {
-      console.log("Email: No submission");
+      alert("Email: No submission");
     } else {
       console.log("Email: " + emailInput);
     }
 
     if (messageInput === null || messageInput === "") {
-      console.log("Message: No submission");
+      alert("Message: No submission");
     } else {
       console.log("Message: " + messageInput);
     }
